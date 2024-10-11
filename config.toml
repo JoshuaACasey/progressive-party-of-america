@@ -32,11 +32,11 @@ id = ""
     url        = "/"
     weight     = 1
 
-#[[menu.main]]
-#    name       = "Platform"
-#    url        = "/platform"
-#    weight     = 1
-#    parent     = "menu.home"
+[[menu.main]]
+    name       = "Platform"
+    url        = "/platform"
+    weight     = 1
+    parent     = "menu.home"
 
 #[[menu.main]]
 #    name       = "Option 2: Application"
@@ -68,23 +68,30 @@ id = ""
     url        = "/platform/"
     weight     = 2
 
+    #[[menu.main]]
+    #    name       = "Blog"
+    #    identifier = "menu.blog"
+    #    url        = "/blog/"
+    #    weight     = 3
+
+    #[[menu.main]]
+    #    name       = "FAQ"
+    #    identifier = "menu.faq"
+    #    url        = "/faq/"
+    #    weight     = 4
+
 [[menu.main]]
     name       = "Volunteer"
     identifier = "volunteer"
     url        = "https://docs.google.com/forms/d/1cSOd6QLZUqIqVszRTsG-xNuEN437lkDN6pqRilvj8m8"
-    weight     = 3
+    weight     = 5
 
 #[[menu.main]]
-#    name       = "Blog"
-#    identifier = "menu.blog"
-#    url        = "/blog/"
+#    name       = "Press"
+#    identifier = "press"
+#    url        = "/press/"
 #    weight     = 5
 
-#[[menu.main]]
-#    name       = "FAQ"
-#    identifier = "menu.faq"
-#    url        = "/faq/"
-#    weight     = 6
 
 #[[menu.main]]
 #    identifier = "contact"
